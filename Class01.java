@@ -14,7 +14,7 @@ class Cbbb extends Caaa {// 定義子類別 Cbbb，繼承自抽象類別 Caaa
         System.out.println("num=" + num); // 印出 num 的值
     }
 }
-public class Main {
+public class Class01 {
     public static void main(String args[]) {
         Cbbb bb = new Cbbb(2); // 創建 Cbbb 的實例並設定 num 成員的值為 2
         bb.show(); // 呼叫 show 方法，印出 "num=2" 字串
